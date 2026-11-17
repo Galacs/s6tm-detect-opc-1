@@ -5889,7 +5889,7 @@
 		)
 		(uuid "1bd8c7b6-e023-495d-a9d8-68645e56e472")
 	)
-	(text "UVLO = 3.75V\nOVC = 5.7V\n\nSlew Rate\n250mA limit for 100uF load\n-> 2.5V/ms\n-> Cdvdt = 800pF\n(BOM consolidation) For 1n\n  -> SR ~ 2V/ms\n\nIlim\n->Ilim = 1A\n->I = Vilm(µV)/(180*3300)"
+	(text "UVLO = 3.75V\nOVC = 5.7V\n\nSlew Rate\n250mA limit for 100uF load\n-> 2.5V/ms\n-> Cdvdt = 800pF\n(BOM consolidation) For 1n\n  -> SR ~ 2V/ms\n\nIlim\n->Ilim = 2A\n->I = Vilm(µV)/(180*3300)"
 		(exclude_from_sim no)
 		(at 81.534 141.986 0)
 		(effects
@@ -5901,7 +5901,7 @@
 		)
 		(uuid "4303c1f6-80d2-4988-9670-523b51491cf8")
 	)
-	(text "TPS259472A\n1A efuse"
+	(text "TPS259472A\n2A efuse"
 		(exclude_from_sim no)
 		(at 28.194 147.574 0)
 		(effects
@@ -19762,7 +19762,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "1k5"
 			(at 48.26 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19816,7 +19816,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF3301TCE"
+		(property "Manufacturer Part Number" "0402WGF1501TCE"
 			(at 48.26 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -19838,7 +19838,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25890"
+		(property "JLCPCB Part #" "C25867"
 			(at 48.26 144.78 90)
 			(hide yes)
 			(show_name no)
