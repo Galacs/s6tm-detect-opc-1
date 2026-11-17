@@ -11799,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 106.68 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -19019,7 +19019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Pico-Clasp_501331-0607_1x06-1MP_P1.00mm_Vertical"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19063,7 +19063,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C157920"
+		(property "JLCPCB Part #" ""
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19074,7 +19074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JST"
+		(property "Manufacturer" ""
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19085,7 +19085,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "S6B-PH-K-S(LF)(SN)"
+		(property "Manufacturer Part Number" ""
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
