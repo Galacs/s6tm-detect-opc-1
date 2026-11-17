@@ -19019,7 +19019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Pico-Clasp_501331-0607_1x06-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Pico-Clasp_202396-0607_1x06-1MP_P1.00mm_Horizontal"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19063,7 +19063,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C505000"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19074,7 +19074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "MOLEX"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19085,7 +19085,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "5015680607"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)
