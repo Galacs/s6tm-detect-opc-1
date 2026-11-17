@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "4dbf6f1a-b666-4be3-9900-2c969eca7e46")
 	(paper "A4")
+	(title_block
+		(title "S6TM Detect OPC 1")
+		(date "2026-11-17")
+		(rev "01")
+		(company "6NAPSE")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
