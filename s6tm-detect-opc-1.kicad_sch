@@ -20406,7 +20406,7 @@
 				)
 			)
 		)
-		(property "Basic" "Z"
+		(property "Basic" "X"
 			(at 53.34 59.69 0)
 			(hide yes)
 			(show_name no)

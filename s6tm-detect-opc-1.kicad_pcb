@@ -7016,6 +7016,16 @@
 		(path "/014abec7-de1c-4246-bd17-01651a2b2a31")
 		(sheetname "/")
 		(sheetfile "s6tm-detect-opc-1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "7" "44" "5" "6" "2" "3" "4" "18" "19" "20" "39" "40" "41" "42"
+					"43" "45" "46" "21" "22" "29" "25" "27" "28" "1" "24" "36" "23" "47"
+					"35" "48" "8" "9" "10" "11" "12" "13" "14" "15" "16" "17" "33" "30"
+					"31" "32" "38" "34" "37" "26"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16948,7 +16958,7 @@
 				)
 			)
 		)
-		(property "Basic" "Z"
+		(property "Basic" "X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
