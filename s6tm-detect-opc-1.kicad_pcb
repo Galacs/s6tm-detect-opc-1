@@ -1408,11 +1408,11 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "0911b7c1-edac-432f-b851-033e45051961")
-		(at 137.935 107.855 -90)
+		(at 146 102.25)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D9"
-			(at 0.14 -1.2 90)
+			(at 0.14 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "c6b0cea2-1775-4965-bbcc-eed280f09291")
 			(effects
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at -0.06 1.17 90)
+			(at -0.06 1.17 0)
 			(layer "F.Fab")
 			(uuid "d54055ce-d837-4c79-bcb0-b9b874e33b87")
 			(effects
@@ -1434,7 +1434,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "85fa4e95-9490-4fd6-8dad-85c139c87530")
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3d0b09a-6e06-461e-a2ed-9321f6984b5f")
@@ -1458,7 +1458,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1471,7 +1471,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1484,7 +1484,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1497,7 +1497,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1533,6 +1533,16 @@
 			(uuid "e895ce93-0d20-4368-b598-de3427e7ceaa")
 		)
 		(fp_line
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a26a542c-64b5-4046-8846-5b2eed403056")
+		)
+		(fp_line
 			(start -0.86 0.47)
 			(end -0.86 -0.47)
 			(stroke
@@ -1541,6 +1551,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "d68ff0fe-9971-4ae1-afbf-898f75fb3ccc")
+		)
+		(fp_line
+			(start 0.87 -0.47)
+			(end 0.87 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49bea870-83cf-4cab-8389-f93942b98307")
 		)
 		(fp_line
 			(start 0.87 0.47)
@@ -1553,24 +1573,14 @@
 			(uuid "a2b6dd76-c7f6-417d-a434-5d690b5bef09")
 		)
 		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "a26a542c-64b5-4046-8846-5b2eed403056")
-		)
-		(fp_line
-			(start 0.87 -0.47)
-			(end 0.87 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "49bea870-83cf-4cab-8389-f93942b98307")
+			(layer "F.Fab")
+			(uuid "31b5fd2f-2497-4551-92dd-8c77d4ca2950")
 		)
 		(fp_line
 			(start -0.56 0.25)
@@ -1603,26 +1613,6 @@
 			(uuid "0f73f4db-2c5a-425d-a6c0-b207e70751cf")
 		)
 		(fp_line
-			(start 0.44 0.25)
-			(end -0.56 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "550f4a39-d705-4262-b262-8c9bf8ecc1db")
-		)
-		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "31b5fd2f-2497-4551-92dd-8c77d4ca2950")
-		)
-		(fp_line
 			(start 0.44 -0.25)
 			(end 0.44 0.25)
 			(stroke
@@ -1632,8 +1622,18 @@
 			(layer "F.Fab")
 			(uuid "2a2889b5-e0e1-438f-b3d7-7ec674631d78")
 		)
+		(fp_line
+			(start 0.44 0.25)
+			(end -0.56 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "550f4a39-d705-4262-b262-8c9bf8ecc1db")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.06 0 90)
+			(at -0.06 0 0)
 			(layer "F.Fab")
 			(uuid "2764d87d-7851-4d70-9d24-98d07acfcb11")
 			(effects
@@ -1644,7 +1644,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0 270)
+			(at -0.425 0)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1654,7 +1654,7 @@
 			(uuid "2957abb4-3aa5-424a-8ff9-704559c1986b")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0 270)
+			(at 0.425 0)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2056,11 +2056,11 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "11c5d341-10be-439a-8035-366bf0897ac0")
-		(at 139.925 107.855 -90)
+		(at 143.675 102.25 180)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D8"
-			(at 0.14 -1.2 90)
+			(at 0.14 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "b8b69208-7bf9-49a7-8604-ac79586dc972")
 			(effects
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at -0.06 1.17 90)
+			(at -0.06 1.17 0)
 			(layer "F.Fab")
 			(uuid "a1dcb924-8627-44f4-9fa3-167a0551b186")
 			(effects
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fbda875-38a7-405f-956d-42ff972ebeca")
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "585065b0-ad63-419b-9903-859052a8381d")
@@ -2106,7 +2106,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2132,7 +2132,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2145,7 +2145,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2181,16 +2181,6 @@
 			(uuid "db5da6c3-4816-4100-a371-b650c3015960")
 		)
 		(fp_line
-			(start -0.86 0.47)
-			(end -0.86 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "24b5cc0f-bd69-4739-a7f8-47fe2b687880")
-		)
-		(fp_line
 			(start 0.87 0.47)
 			(end -0.86 0.47)
 			(stroke
@@ -2199,16 +2189,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "fa82027b-a709-4457-ad39-2afd06f18661")
-		)
-		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f7bfcf09-f4d5-4e7e-8dda-d13d4df396b9")
 		)
 		(fp_line
 			(start 0.87 -0.47)
@@ -2221,34 +2201,24 @@
 			(uuid "7b5ef33a-4fe1-4dcc-91c5-cc2c6e7c3188")
 		)
 		(fp_line
-			(start -0.56 0.25)
-			(end -0.56 -0.25)
+			(start -0.86 0.47)
+			(end -0.86 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "461d691e-bf8c-400e-8da9-537a484003ff")
+			(layer "F.CrtYd")
+			(uuid "24b5cc0f-bd69-4739-a7f8-47fe2b687880")
 		)
 		(fp_line
-			(start -0.46 0.25)
-			(end -0.46 -0.25)
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "a8030dd3-4b01-4663-8fbd-37df8a3fa304")
-		)
-		(fp_line
-			(start -0.36 0.25)
-			(end -0.36 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9ed1ed7f-4b9e-478a-ac2f-4bcabda4245d")
+			(layer "F.CrtYd")
+			(uuid "f7bfcf09-f4d5-4e7e-8dda-d13d4df396b9")
 		)
 		(fp_line
 			(start 0.44 0.25)
@@ -2261,16 +2231,6 @@
 			(uuid "de06a47c-0a68-42db-a200-f5371120c2d4")
 		)
 		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "22e3ef21-b5ee-4f13-a6e3-4831bb054fee")
-		)
-		(fp_line
 			(start 0.44 -0.25)
 			(end 0.44 0.25)
 			(stroke
@@ -2280,8 +2240,48 @@
 			(layer "F.Fab")
 			(uuid "fbb9d1c2-5202-4c77-861a-1cfdf2164ad7")
 		)
+		(fp_line
+			(start -0.36 0.25)
+			(end -0.36 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ed1ed7f-4b9e-478a-ac2f-4bcabda4245d")
+		)
+		(fp_line
+			(start -0.46 0.25)
+			(end -0.46 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a8030dd3-4b01-4663-8fbd-37df8a3fa304")
+		)
+		(fp_line
+			(start -0.56 0.25)
+			(end -0.56 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "461d691e-bf8c-400e-8da9-537a484003ff")
+		)
+		(fp_line
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "22e3ef21-b5ee-4f13-a6e3-4831bb054fee")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.06 0 90)
+			(at -0.06 0 0)
 			(layer "F.Fab")
 			(uuid "c60e2544-6eb9-4b57-a7c1-14f33201da0e")
 			(effects
@@ -2292,7 +2292,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0 270)
+			(at -0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2302,7 +2302,7 @@
 			(uuid "6e3e8246-bd15-4c55-bdea-b15d556147db")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0 270)
+			(at 0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4956,11 +4956,11 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "2d2266d7-0e1f-4311-94af-25567a3c103d")
-		(at 143.905 107.855 -90)
+		(at 146.25 107.25)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D6"
-			(at 0.14 -1.2 90)
+			(at 0.14 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "76b4a037-2190-44d2-b9b0-469e96b8a575")
 			(effects
@@ -4971,7 +4971,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at -0.06 1.17 90)
+			(at -0.06 1.17 0)
 			(layer "F.Fab")
 			(uuid "c2813ede-6776-4b57-bad4-f932c02544aa")
 			(effects
@@ -4982,7 +4982,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21a88eaf-2050-4943-b47f-c71502fe45b7")
@@ -4994,7 +4994,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c6a40ff-4452-4f4f-ab5e-abf680501d0f")
@@ -5006,7 +5006,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5019,7 +5019,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5032,7 +5032,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5045,7 +5045,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5081,6 +5081,16 @@
 			(uuid "dc8232c1-f092-4c54-8f22-a18c66dd38bc")
 		)
 		(fp_line
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0756d9a0-6bc7-4fdb-8216-06249864781f")
+		)
+		(fp_line
 			(start -0.86 0.47)
 			(end -0.86 -0.47)
 			(stroke
@@ -5089,6 +5099,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "5f712718-e6f5-4113-bfc4-eaf9b5c49fbf")
+		)
+		(fp_line
+			(start 0.87 -0.47)
+			(end 0.87 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "18b1fc65-a762-47b2-a9cc-1d6614b7f8b4")
 		)
 		(fp_line
 			(start 0.87 0.47)
@@ -5101,24 +5121,14 @@
 			(uuid "ffe6f0d7-5401-41c7-8365-05cb63c6d8e7")
 		)
 		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "0756d9a0-6bc7-4fdb-8216-06249864781f")
-		)
-		(fp_line
-			(start 0.87 -0.47)
-			(end 0.87 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "18b1fc65-a762-47b2-a9cc-1d6614b7f8b4")
+			(layer "F.Fab")
+			(uuid "248c6a85-bce9-4745-9e6d-967767332032")
 		)
 		(fp_line
 			(start -0.56 0.25)
@@ -5151,26 +5161,6 @@
 			(uuid "2a670c83-ea6b-4d46-b102-b3906727319d")
 		)
 		(fp_line
-			(start 0.44 0.25)
-			(end -0.56 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "be74b8a2-3b1c-4813-ba4f-650646a6cb7d")
-		)
-		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "248c6a85-bce9-4745-9e6d-967767332032")
-		)
-		(fp_line
 			(start 0.44 -0.25)
 			(end 0.44 0.25)
 			(stroke
@@ -5180,8 +5170,18 @@
 			(layer "F.Fab")
 			(uuid "98ec2ca0-d71c-482c-bd5c-aa5717b1b5d7")
 		)
+		(fp_line
+			(start 0.44 0.25)
+			(end -0.56 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be74b8a2-3b1c-4813-ba4f-650646a6cb7d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.06 0 90)
+			(at -0.06 0 0)
 			(layer "F.Fab")
 			(uuid "cbee0f8c-ec64-4c53-9e4a-b67c42d7cf11")
 			(effects
@@ -5192,7 +5192,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0 270)
+			(at -0.425 0)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5202,7 +5202,7 @@
 			(uuid "38fd4742-9e6f-4547-812f-b570e9db9875")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0 270)
+			(at 0.425 0)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10056,11 +10056,11 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "58736dec-dab4-42f4-8151-84125dccd8fa")
-		(at 141.915 107.855 -90)
+		(at 144.25 107.25 180)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D7"
-			(at 0.14 -1.2 90)
+			(at 0.14 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "0bb58050-dc37-4994-8244-7d3dff5f38d1")
 			(effects
@@ -10071,7 +10071,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at -0.06 1.17 90)
+			(at -0.06 1.17 0)
 			(layer "F.Fab")
 			(uuid "7ef17bfc-ec5f-44d8-b920-efd54eebf3ab")
 			(effects
@@ -10082,7 +10082,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8560421a-b915-4bec-97d3-803ffda17239")
@@ -10094,7 +10094,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a61b724d-e98a-4d49-998d-ad40e53ce876")
@@ -10106,7 +10106,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10119,7 +10119,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10132,7 +10132,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10145,7 +10145,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10181,16 +10181,6 @@
 			(uuid "09a8879f-6e98-4a6b-a1a4-307a25011629")
 		)
 		(fp_line
-			(start -0.86 0.47)
-			(end -0.86 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2861b3eb-9b7f-47ea-9e04-5091e22b56a3")
-		)
-		(fp_line
 			(start 0.87 0.47)
 			(end -0.86 0.47)
 			(stroke
@@ -10199,16 +10189,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "effed649-0acb-4313-8287-a0c1775d99c9")
-		)
-		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "abba1fbf-4f83-42b5-836d-392aaa512c77")
 		)
 		(fp_line
 			(start 0.87 -0.47)
@@ -10221,34 +10201,24 @@
 			(uuid "e12f3852-7403-4655-8479-c5241718faf1")
 		)
 		(fp_line
-			(start -0.56 0.25)
-			(end -0.56 -0.25)
+			(start -0.86 0.47)
+			(end -0.86 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "2f766fc0-cdcd-4d46-bd90-946352bcd3d5")
+			(layer "F.CrtYd")
+			(uuid "2861b3eb-9b7f-47ea-9e04-5091e22b56a3")
 		)
 		(fp_line
-			(start -0.46 0.25)
-			(end -0.46 -0.25)
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "e5555f51-91cd-409f-b625-945fae745098")
-		)
-		(fp_line
-			(start -0.36 0.25)
-			(end -0.36 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e0d3f781-5242-4988-ae9b-0966933f2aa0")
+			(layer "F.CrtYd")
+			(uuid "abba1fbf-4f83-42b5-836d-392aaa512c77")
 		)
 		(fp_line
 			(start 0.44 0.25)
@@ -10261,16 +10231,6 @@
 			(uuid "33bf13d2-7fe9-4814-a0a3-9f66bc348e37")
 		)
 		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c4198a93-cbb2-41a0-9a59-2f1e0424056d")
-		)
-		(fp_line
 			(start 0.44 -0.25)
 			(end 0.44 0.25)
 			(stroke
@@ -10280,8 +10240,48 @@
 			(layer "F.Fab")
 			(uuid "84ad07e6-8e55-44d6-aa5e-d314313e2148")
 		)
+		(fp_line
+			(start -0.36 0.25)
+			(end -0.36 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e0d3f781-5242-4988-ae9b-0966933f2aa0")
+		)
+		(fp_line
+			(start -0.46 0.25)
+			(end -0.46 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5555f51-91cd-409f-b625-945fae745098")
+		)
+		(fp_line
+			(start -0.56 0.25)
+			(end -0.56 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f766fc0-cdcd-4d46-bd90-946352bcd3d5")
+		)
+		(fp_line
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4198a93-cbb2-41a0-9a59-2f1e0424056d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.06 0 90)
+			(at -0.06 0 0)
 			(layer "F.Fab")
 			(uuid "243367f3-faff-417a-88be-717c9aea2ade")
 			(effects
@@ -10292,7 +10292,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0 270)
+			(at -0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10302,7 +10302,7 @@
 			(uuid "bf9b21ac-4958-4174-8a3a-8767e0b0c487")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0 270)
+			(at 0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14973,11 +14973,11 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "b95b726b-9ba8-4bc7-bc2c-e5478606206d")
-		(at 145.895 107.855 -90)
+		(at 142.25 107.25 180)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D4"
-			(at 0.14 -1.2 90)
+			(at 0.14 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "46b7f2fe-dbb5-4b3d-bb8d-7a861a30e4cc")
 			(effects
@@ -14988,7 +14988,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at -0.06 1.17 90)
+			(at -0.06 1.17 0)
 			(layer "F.Fab")
 			(uuid "3f804086-d351-4405-bd9a-271b359bcb34")
 			(effects
@@ -14999,7 +14999,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2eec2e90-b8ba-49c6-beb7-e82bb8a4c88a")
@@ -15011,7 +15011,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d803f26-daca-4848-97fd-684c16382aaf")
@@ -15023,7 +15023,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15036,7 +15036,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15049,7 +15049,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15062,7 +15062,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15098,16 +15098,6 @@
 			(uuid "53cedc6b-2eb2-421a-afd6-a1bd036cdaa2")
 		)
 		(fp_line
-			(start -0.86 0.47)
-			(end -0.86 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ce8ad97b-c0bd-49d8-a911-bf42b700c98d")
-		)
-		(fp_line
 			(start 0.87 0.47)
 			(end -0.86 0.47)
 			(stroke
@@ -15116,16 +15106,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "1d55c16d-e931-42b4-bc31-2ef2e1e3d0e8")
-		)
-		(fp_line
-			(start -0.86 -0.47)
-			(end 0.87 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "30111c85-24c5-4c02-929e-2309cd6aa5db")
 		)
 		(fp_line
 			(start 0.87 -0.47)
@@ -15138,34 +15118,24 @@
 			(uuid "73ec8bdd-dad5-45d3-8cf0-6bd1fa9ed5d9")
 		)
 		(fp_line
-			(start -0.56 0.25)
-			(end -0.56 -0.25)
+			(start -0.86 0.47)
+			(end -0.86 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "ec76fcd6-e4e0-4a40-a86a-84b7fc7f3d90")
+			(layer "F.CrtYd")
+			(uuid "ce8ad97b-c0bd-49d8-a911-bf42b700c98d")
 		)
 		(fp_line
-			(start -0.46 0.25)
-			(end -0.46 -0.25)
+			(start -0.86 -0.47)
+			(end 0.87 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "2b09629a-a66b-466e-afeb-48d342913f5b")
-		)
-		(fp_line
-			(start -0.36 0.25)
-			(end -0.36 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2493f74e-1f86-4219-9f62-0bfc09a8a9f6")
+			(layer "F.CrtYd")
+			(uuid "30111c85-24c5-4c02-929e-2309cd6aa5db")
 		)
 		(fp_line
 			(start 0.44 0.25)
@@ -15178,16 +15148,6 @@
 			(uuid "5e449e9c-5de2-4554-a73b-676fdf58649e")
 		)
 		(fp_line
-			(start -0.56 -0.25)
-			(end 0.44 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "150eb21b-b7ac-4cee-97f7-281898c52356")
-		)
-		(fp_line
 			(start 0.44 -0.25)
 			(end 0.44 0.25)
 			(stroke
@@ -15197,8 +15157,48 @@
 			(layer "F.Fab")
 			(uuid "0afa2008-6000-40d8-bf7b-2246e757543f")
 		)
+		(fp_line
+			(start -0.36 0.25)
+			(end -0.36 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2493f74e-1f86-4219-9f62-0bfc09a8a9f6")
+		)
+		(fp_line
+			(start -0.46 0.25)
+			(end -0.46 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b09629a-a66b-466e-afeb-48d342913f5b")
+		)
+		(fp_line
+			(start -0.56 0.25)
+			(end -0.56 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec76fcd6-e4e0-4a40-a86a-84b7fc7f3d90")
+		)
+		(fp_line
+			(start -0.56 -0.25)
+			(end 0.44 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "150eb21b-b7ac-4cee-97f7-281898c52356")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.06 0 90)
+			(at -0.06 0 0)
 			(layer "F.Fab")
 			(uuid "0f150023-0a8a-4482-bc37-44e5a425d3ce")
 			(effects
@@ -15209,7 +15209,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.425 0 270)
+			(at -0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15219,7 +15219,7 @@
 			(uuid "13260233-e4b5-4746-b197-ea4dd3876dc4")
 		)
 		(pad "2" smd roundrect
-			(at 0.425 0 270)
+			(at 0.425 0 180)
 			(size 0.55 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18759,11 +18759,11 @@
 	(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e173756c-fb68-4a36-9294-bd5247b0456c")
-		(at 144.365 113.27 -90)
+		(at 144.25 104.75 180)
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J1"
-			(at 0 2.7 90)
+			(at 0 2.7 0)
 			(layer "F.SilkS")
 			(uuid "e604e587-e9b8-407d-82fd-5e2c6f953210")
 			(effects
@@ -18774,7 +18774,7 @@
 			)
 		)
 		(property "Value" "TC2030"
-			(at 0 -2.3 90)
+			(at 0 -2.3 0)
 			(layer "F.Fab")
 			(uuid "a3519f55-96e2-412c-93bf-3b3332c579e5")
 			(effects
@@ -18785,7 +18785,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18798,7 +18798,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
-			(at 0 0 270)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18823,16 +18823,6 @@
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.905 1.27)
-			(end -1.905 0.635)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "659722d6-b3c2-47c5-9e0b-a867a0f9b908")
-		)
-		(fp_line
 			(start -1.27 1.27)
 			(end -1.905 1.27)
 			(stroke
@@ -18843,14 +18833,14 @@
 			(uuid "eb38ec0f-7889-48e1-ab8a-c21cfdaae784")
 		)
 		(fp_line
-			(start -3.5 2)
-			(end -3.5 -2)
+			(start -1.905 1.27)
+			(end -1.905 0.635)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "a960bcc3-49ad-473e-aed4-68200c36fbed")
+			(layer "F.SilkS")
+			(uuid "659722d6-b3c2-47c5-9e0b-a867a0f9b908")
 		)
 		(fp_line
 			(start 3.5 2)
@@ -18863,16 +18853,6 @@
 			(uuid "80b82a1a-baa7-433e-98ca-6bf525721213")
 		)
 		(fp_line
-			(start -3.5 -2)
-			(end 3.5 -2)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "38d329c8-1319-45c4-ae39-0c920dbf30b6")
-		)
-		(fp_line
 			(start 3.5 -2)
 			(end 3.5 2)
 			(stroke
@@ -18882,8 +18862,28 @@
 			(layer "F.CrtYd")
 			(uuid "4dc28a72-93ee-4e33-98a1-51bab32b290f")
 		)
+		(fp_line
+			(start -3.5 2)
+			(end -3.5 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a960bcc3-49ad-473e-aed4-68200c36fbed")
+		)
+		(fp_line
+			(start -3.5 -2)
+			(end 3.5 -2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "38d329c8-1319-45c4-ae39-0c920dbf30b6")
+		)
 		(fp_text user "KEEPOUT"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "Cmts.User")
 			(uuid "8b1888bb-f1d2-49a9-8a66-479d14ade0f7")
 			(effects
@@ -18894,7 +18894,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f152a881-3ca6-4b80-9f29-5cb55f6f63ed")
 			(effects
@@ -18905,28 +18905,28 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -2.54 0 270)
+			(at -2.54 0 180)
 			(size 0.9906 0.9906)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(uuid "73c38c14-ebde-478e-a742-ce131564b49d")
 		)
 		(pad "" np_thru_hole circle
-			(at 2.54 -1.016 270)
+			(at 2.54 -1.016 180)
 			(size 0.9906 0.9906)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(uuid "84eca1b1-87ea-4ab0-8a9d-869f9be0aa9d")
 		)
 		(pad "" np_thru_hole circle
-			(at 2.54 1.016 270)
+			(at 2.54 1.016 180)
 			(size 0.9906 0.9906)
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(uuid "f85869f6-35de-40b5-8ed5-7f41bea46d18")
 		)
 		(pad "1" connect circle
-			(at -1.27 0.635 270)
+			(at -1.27 0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "+3V3")
@@ -18935,7 +18935,7 @@
 			(uuid "dea89eba-6ca5-43fb-b304-e7d3e8f442ae")
 		)
 		(pad "2" connect circle
-			(at -1.27 -0.635 270)
+			(at -1.27 -0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/SWDIO")
@@ -18944,7 +18944,7 @@
 			(uuid "c436951e-7ea7-40d4-917d-895421b23f5e")
 		)
 		(pad "3" connect circle
-			(at 0 0.635 270)
+			(at 0 0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/NRST")
@@ -18953,7 +18953,7 @@
 			(uuid "e35c9c2f-a066-44cd-a214-ee9458ed5bc9")
 		)
 		(pad "4" connect circle
-			(at 0 -0.635 270)
+			(at 0 -0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/SWCLK")
@@ -18962,7 +18962,7 @@
 			(uuid "9b0c8a67-68ba-4785-a89a-320fbd15df23")
 		)
 		(pad "5" connect circle
-			(at 1.27 0.635 270)
+			(at 1.27 0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
@@ -18971,7 +18971,7 @@
 			(uuid "6f08cc79-e6a7-43ce-96bb-d245c0a39518")
 		)
 		(pad "6" connect circle
-			(at 1.27 -0.635 270)
+			(at 1.27 -0.635 180)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
 			(net "/SWO")
@@ -19005,7 +19005,7 @@
 			)
 			(polygon
 				(pts
-					(xy 145 114.54) (xy 145 112) (xy 143.73 112) (xy 143.73 114.54)
+					(xy 142.98 105.385) (xy 145.52 105.385) (xy 145.52 104.115) (xy 142.98 104.115)
 				)
 			)
 		)
