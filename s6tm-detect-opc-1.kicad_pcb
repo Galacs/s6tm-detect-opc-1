@@ -3725,7 +3725,7 @@
 			(uuid "2072c40e-ff9a-4a50-900d-f210861e2988")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_PWSON-N6.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/HDC2080DMBR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3733,7 +3733,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -17076,15 +17076,15 @@
 			(uuid "8a137afe-b147-4c2b-8e1c-751d3174cb31")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Pico-Clasp_202396-0607_1x06-1MP_P1.00mm_Horizontal.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/2023960607.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -4.3 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
