@@ -11469,7 +11469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1688e493-b5c6-43a6-8d7c-26ee7357a1aa")
+		(uuid "153b475a-ef49-4905-a2b6-75f57caafc6a")
 		(property "Reference" "D11"
 			(at 144.78 186.6899 90)
 			(show_name no)
@@ -11481,7 +11481,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ6.0CA"
+		(property "Value" "SMAJ6.0CA"
 			(at 144.78 187.9599 90)
 			(hide yes)
 			(show_name no)
@@ -11537,7 +11537,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C19077544"
+		(property "JLCPCB Part #" "C19077526"
 			(at 142.24 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11559,7 +11559,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SMAJ26CA"
+		(property "Manufacturer Part Number" "SMAJ6.0CA"
 			(at 142.24 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11571,10 +11571,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "63e3db84-2671-4415-8744-ee3c0ed42fa0")
+			(uuid "1bbf7990-2115-4743-990a-441ccde6a28b")
 		)
 		(pin "2"
-			(uuid "2b74d96a-a74c-4242-8b74-7dbbc518d6f8")
+			(uuid "b0027006-b5ed-4b87-b6f5-0c2853946b65")
 		)
 		(instances
 			(project "s6tm-detect-opc-1"
