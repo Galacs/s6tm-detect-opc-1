@@ -6254,7 +6254,7 @@
 		)
 		(uuid "1bd8c7b6-e023-495d-a9d8-68645e56e472")
 	)
-	(text "UVLO = 3.75V\nOVC = 5.7V\n\nSlew Rate\n250mA limit for 100uF load\n-> 2.5V/ms\n-> Cdvdt = 800pF\n(BOM consolidation) For 1n\n  -> SR ~ 2V/ms\n\nIlim\n->Ilim = 2A\n->I = Vilm(µV)/(180*3300)"
+	(text "UVLO = 3.75V\nOVC = 5.7V\n\nSlew Rate\n250mA limit for 100uF load\n-> 2.5V/ms\n-> Cdvdt = 800pF\n(BOM consolidation) For 1n\n  -> SR ~ 2V/ms\n\nIlim\n->Ilim = 1A\n->I = Vilm(µV)/(180*3300)"
 		(exclude_from_sim no)
 		(at 81.534 141.986 0)
 		(effects
