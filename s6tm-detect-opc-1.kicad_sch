@@ -5191,24 +5191,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U6"
+				(at 9.144 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "HDC1080"
-				(at 3.81 6.35 0)
+			(property "Value" "HTU21"
+				(at 9.144 -6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Package_SON:Texas_PWSON-N6"
@@ -5235,6 +5237,50 @@
 				)
 			)
 			(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Basic" "X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C83479"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "HTU21D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5391,10 +5437,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -7.62 2.54 0)
+				(pin passive line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(hide yes)
 					(name "DAP"
 						(effects
 							(font
@@ -7971,6 +8016,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 137.16) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d9fa40-8541-46f6-a168-630d6a543509")
+	)
+	(wire
+		(pts
 			(xy 74.93 55.88) (xy 74.93 57.15)
 		)
 		(stroke
@@ -10148,6 +10203,16 @@
 			(justify right bottom)
 		)
 		(uuid "74786163-0ee2-4830-9686-f09a2e17570b")
+	)
+	(label "EPAD"
+		(at 115.57 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750cb3de-fa07-4511-a90c-4664ce3b505b")
 	)
 	(label "NRST"
 		(at 31.75 170.18 0)
